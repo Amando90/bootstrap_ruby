@@ -1,0 +1,56 @@
+	<body>
+
+		<nav class="navbar navbar-default navbar-custom">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" style="color: #ecf0f1;">Training Bootstrap</a>
+				</div>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active" style="color: #2980b9;"><%= link_to "Home", root_path %></li>
+					<li><%= link_to "Profile", articles_about_path %></li>
+					<li><%= link_to "Contact", articles_contact_path %></li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="container-fluid">
+			
+			<div class="row">
+
+				<div class="col-sm-2">
+					<%= image_tag("profpic.jpg", :class => "img-circle", :width => "200", :height => "auto")%>
+				</div>
+
+				<div class="col-sm-2">
+					<br><br><br>
+					<h4 style="margin: 0;">Amando</h4>
+					<h1 style="margin: 0;">Demas</h1>
+				</div>
+
+				<div class="col-sm-8">
+					<table class="table table-striped" style="margin-top: 25;">
+						<tbody>
+							<tr>
+								<td><strong>Nama</strong></td>
+								<td>Amando Demas</td>
+							</tr>
+
+							<tr>
+								<td><strong>Tempat, Tanggal Lahir</strong></td>
+								<td>Bandung, 11 Juli 1990</td>
+							</tr>
+							<tr>
+								<td><strong>Jenis Kelamin</strong></td>
+								<td>Pria</td>
+							</tr>
+							<tr>
+								<td><strong>Alamat Domisili</strong></td>
+								<td>Jalan Sukagalih No. 6 Bandung</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				
+			</div>
+
+		</div>
